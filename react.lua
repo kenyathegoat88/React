@@ -5,7 +5,7 @@ local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
 
 local player = Players.LocalPlayer
-local reachDistance = 6
+local reachDistance = 1
 
 -- Función para tocar partes (React)
 local function touchParts(part1, part2)
